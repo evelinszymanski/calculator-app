@@ -21,3 +21,6 @@ Project inspired by the work done by [Felipe Rocha](https://github.com/felipemot
 
 ---------------------------------------------
 
+<h2 align="center">Preview</h2>
+
+![calculadora ao centro da tela, com uma ilustração ao fundo](/assets/preview.jpg)
