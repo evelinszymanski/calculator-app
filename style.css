@@ -17,7 +17,6 @@ body {
     --dark-blue: #110126;
     --light-orange: #ca7a61;
     --dark-orange: #743522;
-
 }
 
 .grid-container {
@@ -39,11 +38,6 @@ button {
     margin: 1px;
     border-radius: 5px;
     border-bottom: 3px solid var(--blue-color);
-}
-
-button:hover {
-    background-color: var(--light-color);
-    color: var(--blue-color);
 }
 
 .operator {
@@ -79,6 +73,13 @@ button:hover {
 .current-operand {
     color: var(--blue-color);
     font-size: 2.5rem;
+}
+
+@media (min-width: 1200px) {
+    button:hover {
+        background-color: var(--light-color);
+        color: var(--blue-color);
+    }
 }
 
 @media (max-width: 400px) {
